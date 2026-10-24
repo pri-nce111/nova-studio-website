@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio | Nova Studio</title>
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+<header><div class="container nav">
+  <a href="index.html" class="logo">Nova<span>Studio</span></a>
+  <ul id="menu">
+    <li><a class="link" href="index.html">Home</a></li>
+    <li><a class="link" href="about.html">About</a></li>
+    <li><a class="link" href="services.html">Services</a></li>
+    <li><a class="link" href="portfolio.html">Portfolio</a></li>
+    <li><a class="link" href="contact.html">Contact</a></li>
+  </ul>
+  <div class="tools">
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+    <button class="icon-btn burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+</div></header>
+
+<main>
+<div class="page-head"><div class="container"><h1>Our <span class="grad">Portfolio</span></h1><p class="lead" style="margin:14px auto 0">A selection of projects we're proud of.</p></div></div>
+
+<section><div class="container">
+  <div class="filters" style="margin-top:0">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="web">Websites</button>
+    <button class="filter" data-filter="ecom">E-commerce</button>
+    <button class="filter" data-filter="app">Mobile Apps</button>
+    <button class="filter" data-filter="brand">Branding</button>
+  </div>
+  <div class="grid g3">
+    <div class="card work" data-cat="web"><div class="thumb" style="background:linear-gradient(135deg,#5b5bf0,#8b5cf6)">🌐</div><div class="info"><span class="tag">Website</span><h3>BrightMart Redesign</h3><p>Corporate site with 2x organic traffic.</p></div></div>
+    <div class="card work" data-cat="ecom"><div class="thumb" style="background:linear-gradient(135deg,#f59e0b,#ef4444)">🛍️</div><div class="info"><span class="tag">E-commerce</span><h3>UrbanWear Store</h3><p>Fashion store with 40% higher conversion.</p></div></div>
+    <div class="card work" data-cat="app"><div class="thumb" style="background:linear-gradient(135deg,#10b981,#3b82f6)">📱</div><div class="info"><span class="tag">Mobile App</span><h3>FinTrack App</h3><p>Personal finance app with 100k downloads.</p></div></div>
+    <div class="card work" data-cat="brand"><div class="thumb" style="background:linear-gradient(135deg,#ec4899,#8b5cf6)">✨</div><div class="info"><span class="tag">Branding</span><h3>Greenly Identity</h3><p>Logo, palette and brand guidelines.</p></div></div>
+    <div class="card work" data-cat="web"><div class="thumb" style="background:linear-gradient(135deg,#06b6d4,#3b82f6)">🏥</div><div class="info"><span class="tag">Website</span><h3>MediCare Clinic</h3><p>Booking portal for a 5-location clinic.</p></div></div>
+    <div class="card work" data-cat="ecom"><div class="thumb" style="background:linear-gradient(135deg,#84cc16,#16a34a)">🥑</div><div class="info"><span class="tag">E-commerce</span><h3>FreshBox Grocery</h3><p>Subscription grocery delivery platform.</p></div></div>
+    <div class="card work" data-cat="app"><div class="thumb" style="background:linear-gradient(135deg,#6366f1,#0ea5e9)">🏋️</div><div class="info"><span class="tag">Mobile App</span><h3>FitPulse</h3><p>Workout tracking and coaching app.</p></div></div>
+    <div class="card work" data-cat="brand"><div class="thumb" style="background:linear-gradient(135deg,#f97316,#eab308)">☕</div><div class="info"><span class="tag">Branding</span><h3>Roastery Co.</h3><p>Packaging and visual identity.</p></div></div>
+    <div class="card work" data-cat="web"><div class="thumb" style="background:linear-gradient(135deg,#334155,#0f172a)">🎓</div><div class="info"><span class="tag">Website</span><h3>EduPath Academy</h3><p>Online learning platform with dashboards.</p></div></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="container">
+  <div class="fgrid">
+    <div><a href="index.html" class="logo" style="color:#fff">Nova<span>Studio</span></a><p style="margin:12px 0">Crafting digital experiences that matter.</p></div>
+    <div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="services.html">Web Design</a></li><li><a href="services.html">Development</a></li><li><a href="services.html">SEO</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li>hello@novastudio.example</li><li>+1 (555) 123-4567</li></ul></div>
+  </div>
+  <div class="copy">© <span class="year"></span> Nova Studio. All rights reserved.</div>
+</div></footer>
+<button id="toTop" aria-label="Back to top">↑</button>
+</body>
+</html>

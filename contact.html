@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Nova Studio</title>
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+<header><div class="container nav">
+  <a href="index.html" class="logo">Nova<span>Studio</span></a>
+  <ul id="menu">
+    <li><a class="link" href="index.html">Home</a></li>
+    <li><a class="link" href="about.html">About</a></li>
+    <li><a class="link" href="services.html">Services</a></li>
+    <li><a class="link" href="portfolio.html">Portfolio</a></li>
+    <li><a class="link" href="contact.html">Contact</a></li>
+  </ul>
+  <div class="tools">
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+    <button class="icon-btn burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+</div></header>
+
+<main>
+<div class="page-head"><div class="container"><h1>Let's <span class="grad">talk</span></h1><p class="lead" style="margin:14px auto 0">Tell us about your project. We reply within 24 hours.</p></div></div>
+
+<section><div class="container">
+  <div class="grid g2" style="margin-top:0">
+    <div class="card">
+      <form id="contactForm" novalidate>
+        <div><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name"><span class="err" id="nameErr"></span></div>
+        <div><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com"><span class="err" id="emailErr"></span></div>
+        <div><label for="budget">Budget</label>
+          <select id="budget" name="budget"><option>Under $1,000</option><option>$1,000 – $5,000</option><option>$5,000 – $20,000</option><option>$20,000+</option></select></div>
+        <div><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell us about your project"></textarea><span class="err" id="messageErr"></span></div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <div class="ok" id="formOk">✅ Thanks! Your message has been received.</div>
+      </form>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom:22px"><h3>📍 Visit us</h3><p>123 Market Street, San Francisco, CA 94103</p></div>
+      <div class="card" style="margin-bottom:22px"><h3>✉️ Email</h3><p>hello@novastudio.example</p></div>
+      <div class="card"><h3>📞 Phone</h3><p>+1 (555) 123-4567<br>Mon–Fri, 9am–6pm</p></div>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="container">
+  <div class="fgrid">
+    <div><a href="index.html" class="logo" style="color:#fff">Nova<span>Studio</span></a><p style="margin:12px 0">Crafting digital experiences that matter.</p></div>
+    <div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="services.html">Web Design</a></li><li><a href="services.html">Development</a></li><li><a href="services.html">SEO</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li>hello@novastudio.example</li><li>+1 (555) 123-4567</li></ul></div>
+  </div>
+  <div class="copy">© <span class="year"></span> Nova Studio. All rights reserved.</div>
+</div></footer>
+<button id="toTop" aria-label="Back to top">↑</button>
+</body>
+</html>
